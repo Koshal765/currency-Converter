@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+<link rel="stylesheet" href="curr.css">
+</head>
+<body class="bg-dark  ">
+    <div class="d-flex justify-content-center align-items-center min-vh-100 ">
+        <div class="border p-4 rounded-5 text-center w-100 spread-shadow " style="max-width: 500px;">
+            <h2 class="text-primary mb-4 text-center fs-1 fw-bold ">Currency Converter</h2>
+    <form id="currency" class="row g-3">
+        <div class="col-12 col-md-6">
+        <input id="amount" type="number" name="input" placeholder="enter an amount" class=" form-select rounded-5 text-center fs-5 glass-input" autocomplete="off"></div>
+        <div class="col-12 col-md-6">
+        <select name="from" id="from" class="h-100 w-50 rounded-5 text-center glass-input fw-bold">
+           </select> </div>
+               <div class="col-12">
+           <button type="submit" id="convertBtn"  class="btn btn-primary rounded-circle my-3 px-4 py-2 glass-input spread-shadow " ><i class="bi bi-arrow-down-up rotate "></i></button></div>
+            <div class="col-12 col-md-6">
+           <input id="output" type="number"  placeholder="converted amount" class=" form-control rounded-5  text-center fs-5 vw-10 glass-input "></div>
+ <div class="col-12 col-md-6">
+        <select id="to" name="to" class=" h-100 w-50 rounded-5 text-center glass-input fw-bold">
+
+        </select></div>
+    </form></div>
+</div>
+
+
+   <script src="curr.js" defer></script>
+     
+
+ 
+   
+</body>
+</html>
